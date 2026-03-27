@@ -9,6 +9,22 @@
     padding: 11px 16px;
     margin-bottom: 20px;
   }
+
+  .head-content {
+    h2 {
+      font-size: 42px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-block: 6px 15px;
+    }
+
+    div {
+      width: 115px;
+      height: 7px;
+    }
+  }
   /* End Global */
 
   /* Start Header */
@@ -61,12 +77,433 @@
     font-size: 14px;
   }
   /* End Section 1 */
+
+  /* Start Section 2 */
+  #section-2 {
+    padding-block: 60px;
+  }
+  #section-2 .main .left-1 .head h2 {
+    font-size: 42px;
+  }
+
+  #section-2 .main .left-1 > .cards .card {
+    gap: 13px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .left-2 {
+    width: 140px;
+    height: 105px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .left-2 span {
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 > span {
+    font-size: 11px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 > h3 {
+    font-size: 21px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 > p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 .bottom span {
+    font-size: 12px;
+  }
+
+  #section-2 .main .left-1 .btn-left {
+    margin-top: 40px;
+  }
+
+  #section-2 .main .left-1 .btn-left span {
+    font-size: 18px;
+    padding: 15px 38px;
+    box-shadow: 5.5px 5.5px black;
+  }
+
+  #section-2 .main .left-1 .btn-left span:hover {
+    transform: translate(5.5px, 5.5px);
+  }
+
+  #section-2 .main .right-1 {
+    gap: 28px;
+  }
+
+  #section-2 .main .right-1 .box {
+    padding: 30px;
+  }
+
+  #section-2 .main .right-1 .box h3 {
+    font-size: 26px;
+  }
+
+  #section-2 .main .right-1 .box-1 .content {
+    margin-top: 25px;
+    gap: 15px;
+  }
+
+  #section-2 .main .right-1 .box-1 .content > span {
+    font-size: 32px;
+  }
+
+  #section-2 .main .right-1 .box-1 .content .right h5 {
+    font-size: 16px;
+  }
+
+  #section-2 .main .right-1 .box-2 h3 {
+    margin-bottom: 20px;
+  }
+
+  #section-2 .main .right-1 .box-2 .content {
+    margin-top: 13px;
+  }
+
+  #section-2 .main .right-1 .box-2 .content h5 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  /* End Section 2 */
+
+  /* Start Section 3 */
+  #section-3 {
+    padding-block: 70px;
+
+    .main {
+      .shape-1 {
+        height: 140px;
+        width: 140px;
+      }
+
+      .boxes {
+        .box {
+          .inner {
+            .details {
+              .img {
+                width: 115px;
+              }
+
+              h3 {
+                font-size: 26px;
+              }
+
+              h4 {
+                font-size: 14px;
+              }
+            }
+
+            p {
+              font-size: 14px;
+              line-height: 23px;
+            }
+
+            .social {
+              gap: 15px;
+
+              a {
+                padding: 14px 12px;
+                font-size: 15px;
+              }
+            }
+
+            span {
+              font-size: 11px;
+              padding: 3px 7px;
+            }
+          }
+        }
+      }
+    }
+  }
+  /* End Section 3 */
+
+  /* Start Section 4 */
+  #section-4 {
+    padding-block: 65px;
+
+    .main {
+      .body-content {
+        gap: 50px;
+
+        .leftContent {
+          .inner {
+            h3 {
+              font-size: 32px;
+              line-height: 35px;
+            }
+
+            p {
+              font-size: 18px;
+              line-height: 28px;
+              padding: 11px 8px 11px 11px;
+              margin-block: 28px;
+            }
+
+            .card {
+              gap: 13px;
+              margin-bottom: 20px;
+
+              .icon {
+                width: 41px;
+                height: 41px;
+                font-size: 16px;
+              }
+
+              span {
+                font-size: 16px;
+                line-height: 25px;
+              }
+            }
+
+            button {
+              padding: 21px 38px;
+              font-size: 21px;
+              margin-top: 20px;
+            }
+          }
+        }
+
+        .rightContent {
+          .inner {
+            padding: 35px;
+
+            h4 {
+              font-size: 26px;
+              margin-bottom: 27px;
+            }
+
+            .boxes {
+              gap: 27px;
+
+              .box {
+                padding: 20px 14px 20px 20px;
+
+                p {
+                  font-size: 16px;
+                  line-height: 26px;
+                  margin-bottom: 10px;
+                }
+
+                .bottom {
+                  gap: 13px;
+
+                  .img {
+                    width: 43px;
+                  }
+
+                  .box-content {
+                    h5 {
+                      font-size: 16px;
+                    }
+
+                    span {
+                      font-size: 12px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* End Section 4 */
+
+  /* Start Footer */
+  #footer {
+    padding-block: 70px;
+
+    .main {
+      .boxes {
+        padding-bottom: 45px;
+
+        .box-1 {
+          .title {
+            gap: 18px;
+            margin-bottom: 28px;
+
+            .icon {
+              height: 54px;
+              width: 54px;
+              font-size: 21px;
+            }
+
+            h4 {
+              font-size: 26px;
+              font-weight: 900;
+            }
+          }
+
+          p {
+            font-size: 16px;
+            line-height: 26px;
+          }
+        }
+
+        .box-2 {
+          h5 {
+            font-size: 21px;
+            font-weight: 900;
+            margin-bottom: 27px;
+          }
+
+          .links {
+            a {
+              font-size: 16px;
+            }
+          }
+        }
+
+        .box-3 {
+          h5 {
+            font-size: 21px;
+            font-weight: 900;
+          }
+
+          p {
+            margin-block: 26px 19px;
+            font-size: 16px;
+            line-height: 26px;
+          }
+
+          input[type="email"] {
+            padding: 16px;
+            font-size: 17px;
+            margin-bottom: 16px;
+          }
+
+          input[type="submit"] {
+            padding-block: 16px;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .bottom {
+        text-align: center;
+        margin-top: 32px;
+        gap: 15px;
+
+        p {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 25px;
+        }
+
+        .right {
+          gap: 24px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  /* End Footer */
 }
 
 @media (min-width: 640px) {
   #header {
     background-color: rgb(247, 13, 9);
   }
+
+  /* Start Global */
+  .head-content {
+    margin-bottom: 65px;
+    h2 {
+      font-size: 48px;
+    }
+
+    p {
+      font-size: 20px;
+      margin-block: 6px 17px;
+    }
+
+    div {
+      width: 130px;
+      height: 8px;
+    }
+  }
+  /* End Global */
+
+  /* Start Section 2 */
+  #section-2 .main .left-1 .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #section-2 .main .left-1 .head .btn-span {
+    display: block;
+    font-size: 14px;
+    transform: rotate(2deg);
+    padding: 9px 15px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 > p {
+    margin-block: 13px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 .bottom {
+    flex-flow: row wrap;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 .bottom span {
+    width: 50%;
+  }
+  /* End Section 2 */
+
+  /* Start Section 3 */
+  #section-3 {
+    .main {
+      .boxes {
+        .box {
+          .inner {
+            padding: 30px;
+
+            .details {
+              .img {
+                width: 130px;
+              }
+
+              h3 {
+                font-size: 30px;
+              }
+
+              h4 {
+                font-size: 16px;
+              }
+            }
+
+            p {
+              font-size: 16px;
+              line-height: 26px;
+            }
+
+            .social {
+              gap: 17px;
+
+              a {
+                padding: 16px 14px;
+                font-size: 17px;
+              }
+            }
+
+            span {
+              font-size: 12px;
+              padding: 4px 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+  /* End Section 3 */
 }
 
 @media (min-width: 768px) {
@@ -124,6 +561,286 @@
   #section-1 .main .right span {
     font-size: 16px;
   }
+  /* End Section 1 */
+
+  /* Start Section 2 */
+  #section-2 {
+    padding-block: 70px;
+  }
+
+  #section-2 .main {
+    gap: 30px;
+  }
+
+  #section-2 .main .left-1 .head h2 {
+    font-size: 48px;
+  }
+
+  #section-2 .main .left-1 .head .btn-span {
+    font-size: 16px;
+  }
+
+  #section-2 .main .left-1 > .cards {
+    gap: 30px;
+  }
+
+  #section-2 .main .left-1 > .cards .card {
+    gap: 11px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .left-2 {
+    width: 160px;
+    height: 125px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .left-2 span {
+    font-size: 12px;
+    padding: 4px 9px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 > span {
+    font-size: 12px;
+    padding: 4px 12px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 > h3 {
+    font-size: 24px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 > p {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 .bottom span {
+    font-size: 14px;
+  }
+
+  #section-2 .main .left-1 .btn-left {
+    margin-top: 47px;
+  }
+
+  #section-2 .main .left-1 .btn-left span {
+    font-size: 20px;
+    padding: 17px 44px;
+  }
+
+  #section-2 .main .right-1 {
+    gap: 35px;
+  }
+
+  #section-2 .main .right-1 .box {
+    padding: 32px;
+  }
+
+  #section-2 .main .right-1 .box h3 {
+    font-size: 30px;
+  }
+
+  #section-2 .main .right-1 .box-1 .content > span {
+    font-size: 36px;
+  }
+
+  #section-2 .main .right-1 .box-1 .content .right h5 {
+    font-size: 18px;
+  }
+
+  #section-2 .main .right-1 .box-1 .content .right p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  #section-2 .main .right-1 .box-2 h3 {
+    margin-bottom: 20px;
+  }
+
+  #section-2 .main .right-1 .box-2 .content h5 {
+    font-size: 16px;
+  }
+  /* End Section 2 */
+
+  /* Start Section 4 */
+  #section-4 {
+    padding-block: 65px;
+
+    .main {
+      .body-content {
+        gap: 64px;
+
+        .leftContent {
+          .inner {
+            h3 {
+              font-size: 36px;
+              line-height: 40px;
+            }
+
+            p {
+              font-size: 20px;
+              line-height: 33px;
+              padding: 16px 8px 16px 16px;
+              margin-block: 32px;
+            }
+
+            .card {
+              gap: 15px;
+              margin-bottom: 22px;
+
+              .icon {
+                width: 48px;
+                height: 48px;
+                font-size: 18px;
+              }
+
+              span {
+                font-size: 18px;
+                line-height: 28px;
+              }
+            }
+
+            button {
+              padding: 23px 45px;
+              font-size: 24px;
+              margin-top: 23px;
+            }
+          }
+        }
+
+        .rightContent {
+          .inner {
+            padding: 40px;
+
+            h4 {
+              font-size: 30px;
+              margin-bottom: 30px;
+            }
+
+            .boxes {
+              gap: 30px;
+
+              .box {
+                padding: 20px 14px 20px 20px;
+
+                p {
+                  font-size: 18px;
+                  line-height: 29px;
+                  margin-bottom: 13px;
+                }
+
+                .bottom {
+                  gap: 16px;
+
+                  .img {
+                    width: 48px;
+                  }
+
+                  .box-content {
+                    h5 {
+                      font-size: 18px;
+                    }
+
+                    span {
+                      font-size: 14px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* End Section 4 */
+
+  /* Start Footer */
+  #footer {
+    padding-block: 70px;
+
+    .main {
+      .boxes {
+        padding-bottom: 50px;
+        flex-flow: row wrap;
+
+        .box {
+          h5 {
+            font-size: 24px;
+            margin-bottom: 32px;
+          }
+        }
+
+        .box-1 {
+          width: 100%;
+          margin-bottom: 80px;
+
+          .title {
+            gap: 19px;
+            margin-bottom: 30px;
+
+            .icon {
+              height: 60px;
+              width: 60px;
+              font-size: 25px;
+            }
+
+            h4 {
+              font-size: 30px;
+            }
+          }
+
+          p {
+            font-size: 18px;
+            line-height: 29px;
+          }
+        }
+
+        .box-2 {
+          width: 28%;
+
+          .links {
+            a {
+              font-size: 18px;
+            }
+          }
+        }
+
+        .box-3 {
+          width: 72%;
+
+          p {
+            margin-block: 26px 24px;
+            font-size: 18px;
+            line-height: 29px;
+          }
+
+          input[type="email"] {
+            padding: 19px 16px;
+            font-size: 18px;
+            margin-bottom: 18px;
+          }
+
+          input[type="submit"] {
+            padding-block: 18px;
+            font-size: 18px;
+          }
+        }
+      }
+
+      .bottom {
+        margin-top: 35px;
+
+        p {
+          font-size: 18px;
+          line-height: 28px;
+        }
+
+        .right {
+          gap: 30px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  /* End Footer */
 }
 
 @media (min-width: 1024px) {
@@ -171,6 +888,132 @@
     padding: 10px 17px;
   }
   /* End Section 1 */
+
+  /* Start Section 2 */
+  #section-2 .main {
+    flex-flow: row nowrap;
+    gap: 0;
+    align-items: flex-start;
+  }
+
+  #section-2 .main .left-1 {
+    width: 67%;
+    padding-right: 17px;
+  }
+
+  #section-2 .main .left-1 > .cards .card {
+    flex-direction: row;
+    gap: 0;
+    padding: 32px;
+    align-items: flex-start;
+  }
+
+  #section-2 .main .left-1 > .cards .card .left-2 {
+    width: 30%;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 {
+    width: 70%;
+    padding-left: 25px;
+  }
+
+  #section-2 .main .right-1 {
+    width: 33%;
+    padding-left: 17px;
+    position: sticky;
+    top: 100px;
+  }
+
+  #section-2 .main .right-1 .box-1 .content .right h5 {
+    line-height: 28px;
+  }
+  /* End Section 2 */
+
+  /* Start Section 3 */
+  #section-3 {
+    padding-inline: calc(2% - 15px);
+
+    .main {
+      .shape-1 {
+        inset: 40px 40px auto auto;
+        height: 160px;
+        width: 160px;
+      }
+
+      .boxes {
+        flex-flow: row wrap;
+        gap: 30px 0;
+
+        .box {
+          padding-inline: 15px;
+          width: 50%;
+        }
+
+        .inner {
+          height: 100%;
+        }
+      }
+    }
+  }
+  /* End Section 3 */
+
+  /* Start Section 4 */
+  #section-4 {
+    padding-block: 65px;
+
+    .main {
+      .body-content {
+        gap: 0px;
+        flex-flow: row nowrap;
+        align-items: center;
+
+        & > div {
+          width: 50%;
+        }
+
+        .leftContent {
+          padding-right: 30px;
+        }
+
+        .rightContent {
+          padding-left: 30px;
+        }
+      }
+    }
+  }
+  /* End Section 4 */
+
+  /* Start Footer */
+  #footer {
+    padding-block: 70px;
+
+    .main {
+      .boxes {
+        padding-bottom: 50px;
+        flex-flow: row nowrap;
+
+        .box {
+          margin-bottom: 0;
+          width: 40%;
+          padding-left: 20px;
+        }
+
+        .box-1 {
+          padding-right: 25px;
+          padding-left: 0;
+        }
+
+        .box-2 {
+          width: 20%;
+
+          .links {
+            gap: 20px;
+          }
+        }
+      }
+    }
+  }
+  /* End Footer */
 }
 
 @media (min-width: 1280px) {
@@ -180,9 +1023,57 @@
 
   /* Start Global */
   .container {
-    padding-inline: 9%;
+    padding-inline: 0%;
+  }
+
+  .main {
+    padding-inline: 12px;
+    max-width: 1260px;
+    margin: auto;
   }
   /* End Global */
+
+  /* Start Section 2 */
+  #section-2 .main .left-1 > .cards .card .left-2 {
+    width: 25%;
+  }
+
+  #section-2 .main .left-1 > .cards .card .right-2 {
+    width: 75%;
+  }
+  /* End Section 2 */
+
+  /* Start Section 3 */
+  #section-3 {
+    padding-inline: 0;
+
+    .main {
+      .boxes {
+        column-gap: 30px;
+        row-gap: 0;
+
+        .box {
+          width: calc(calc(100% - 60px) / 3);
+          padding-inline: 0;
+        }
+      }
+    }
+  }
+  /* End Section 3 */
+
+  /* Start Footer */
+  #footer {
+    
+    .main {
+
+      .bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+  /* End Footer */
 }
 
 @media (min-width: 1536px) {
