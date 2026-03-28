@@ -13,7 +13,10 @@
   </head>
   <body>
     <div id="header" class="container">
-      <div class="nav">
+      <input type="checkbox" id="menu" />
+
+      <div class="nav main">
+
         <div class="left">
           <h1>The UX <span>Review</span></h1>
         </div>
@@ -32,10 +35,31 @@
 
         <div class="right">
           <a href="#">subscribe now</a>
-          <div class="icon">
+
+          <label for="menu" class="icon">
             <i class="fa-solid fa-bars"></i>
-          </div>
+          </label>
         </div>
+      </div>
+
+      <div class="nav-menu">
+      <div class="nav-menu-center">
+          <div class="top">
+          <h3>MENU</h3>
+          <label for="menu" class="close">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
+
+        <ul>
+          <li><a href="#">HOME </a></li>
+          <li><a href="#">LATEST ARTICLES</a></li>
+          <li><a href="#">AUTHORS</a></li>
+          <li><a href="#">COMMUNITY</a></li>
+        </ul>
+
+        <button><i class="fa-solid fa-x"></i> SUBSCRIBE NOW</button>
+      </div>
       </div>
     </div>
 
