@@ -16,13 +16,11 @@
   /* ===== Text Colors ===== */
   --text-neutral-900: #000000;
   --text-neutral-800: #111111;
-  /* --text-neutral-400: #d1d5dc; */
   --text-neutral-100: #ffffff;
   --text-neutral-50: #fdfdfd;
   --text-neutral-500: #525252;
 
   --text-orange-500: #f97200;
-  /* --text-orange-400: #ff7a50; */
 
   --text-blue-500: #155dfc;
   --text-blue-550: #2b7fff;
@@ -40,63 +38,36 @@
   --bg-red-400: #fb2c36;
   --bg-red-100: #fef2f2;
 
-  /* --bg-amber-300: #e6b447; */
-
   --bg-yellow-50: #fff085;
-  /* --bg-yellow-100: #fef5c4; */
   --bg-yellow-150: #fef9c2;
-  /* --bg-yellow-200: #f0e08a; */
-  /* --bg-yellow-300: #f1d962; */
-  /* --bg-yellow-400: #d9c935; */
   --bg-yellow-500: #ffd15b;
   --bg-yellow-600: #ffdf20;
   --bg-yellow-700: #ffd230;
   --bg-yellow-750: #ffc131;
 
-  /* --bg-green-100: #f2f9e6; */
-  /* --bg-green-300: #d5e5b7; */
-  /* --bg-green-500: #b1c47a; */
   --bg-green-600: #7bf1a7;
   --bg-green-400: #dbfce7;
   --bg-green-700: #00c950;
 
-  /* --bg-blue-50: #f5f6ff; */
-  /* --bg-blue-100: #e5e8ff; */
-  /* --bg-blue-300: #c3cfff; */
-  /* --bg-blue-500: #9bafff; */
-  /* --bg-blue-600: #879bff; */
   --bg-blue-350: #2b7fff;
   --bg-blue-400: #8ec5ff;
   --bg-blue-700: #1da1f2;
   --bg-blue-800: #155dfb;
   --bg-blue-25: #eff6ff;
 
-  /* --bg-purple-50: #f8f7ff; */
-  /* --bg-purple-100: #ebe7ff; */
-  /* --bg-purple-300: #c9bfff; */
   --bg-purple-350: #f3e8ff;
-  /* --bg-purple-500: #9b80ff; */
-  /* --bg-purple-600: #875cff; */
   --bg-purple-550: #ad46ff;
   --bg-purple-400: #dbeafe;
   --bg-purple-700: #dab2ff;
   --bg-purple-800: #9810fa;
   --bg-purple-25: #faf5ff;
 
-  /* --bg-pink-100: #f9e7f7; */
-  /* --bg-pink-300: #d9bff1; */
-  /* --bg-pink-600: #9739bf; */
   --bg-pink-700: #fea5d5;
   --bg-pink-400: #fce7f3;
 
   --bg-neutral-900: #000000;
-  /* --bg-neutral-300: #dedede; */
-  /* --bg-neutral-50: #fefefe; */
-  /* --bg-neutral-75: #f7f7f7; */
   --bg-neutral-85: #f5f5f5;
   --bg-neutral-100: #ffffff;
-  /* --bg-neutral-400: #b4b4b4; */
-  /* --bg-neutral-600: #707070; */
 }
 
 *::selection {
@@ -106,6 +77,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 50px;
 }
 
 a {
@@ -319,11 +291,11 @@ img {
         cursor: pointer;
         box-shadow: 0.1875rem 0.1875rem black;
         background-color: #ffd15b;
-        transition: .2s;
+        transition: 0.2s;
       }
 
-      button:hover{
-transform: translateY(-0.1875rem);
+      button:hover {
+        transform: translateY(-0.1875rem);
       }
     }
   }
