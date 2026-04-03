@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -107,7 +107,7 @@ img {
   display: block;
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .container {
@@ -125,11 +125,11 @@ img {
   font-size: 0.6563rem;
   padding: 0.625rem 0.9375rem;
   -webkit-transform: rotate(-2deg);
-      -ms-transform: rotate(-2deg);
-          transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
   margin-bottom: 0.9375rem;
   -webkit-box-shadow: 0.1875rem 0.1875rem black;
-          box-shadow: 0.1875rem 0.1875rem black;
+  box-shadow: 0.1875rem 0.1875rem black;
 }
 
 .head-content {
@@ -156,8 +156,8 @@ img {
     background-color: var(--bg-neutral-900);
     margin: 0 auto;
     -webkit-transform: rotate(1deg);
-        -ms-transform: rotate(1deg);
-            transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    transform: rotate(1deg);
   }
 }
 
@@ -187,11 +187,11 @@ img {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     background-color: var(--bg-neutral-100);
     border: 0.125rem solid black;
     padding: 0.55rem 1.125rem;
@@ -222,27 +222,27 @@ img {
         background-color: var(--bg-neutral-100);
         padding: 0.675rem 0.5rem;
         -webkit-box-shadow: 0.2rem 0.2rem black;
-                box-shadow: 0.2rem 0.2rem black;
+        box-shadow: 0.2rem 0.2rem black;
         border-radius: 0.25rem;
         border: 0.125rem solid black;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
         cursor: pointer;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         -webkit-transition: 0.2s;
         -o-transition: 0.2s;
         transition: 0.2s;
 
         &:hover {
           -webkit-transform: translateY(-0.1363rem);
-              -ms-transform: translateY(-0.1363rem);
-                  transform: translateY(-0.1363rem);
+          -ms-transform: translateY(-0.1363rem);
+          transform: translateY(-0.1363rem);
         }
 
         i {
@@ -280,11 +280,11 @@ img {
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         margin-bottom: 1.375rem;
         border-top: 0.125rem solid;
         border-bottom: 0.125rem solid;
@@ -303,11 +303,11 @@ img {
           display: -ms-flexbox;
           display: flex;
           -webkit-box-pack: center;
-              -ms-flex-pack: center;
-                  justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
           -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
           cursor: pointer;
           -webkit-transition: 0.2s;
           -o-transition: 0.2s;
@@ -329,8 +329,8 @@ img {
 
         li :hover {
           -webkit-transform: translateY(-0.1875rem);
-              -ms-transform: translateY(-0.1875rem);
-                  transform: translateY(-0.1875rem);
+          -ms-transform: translateY(-0.1875rem);
+          transform: translateY(-0.1875rem);
           color: #ff6900;
         }
       }
@@ -343,7 +343,7 @@ img {
         font-weight: 700;
         cursor: pointer;
         -webkit-box-shadow: 0.1875rem 0.1875rem black;
-                box-shadow: 0.1875rem 0.1875rem black;
+        box-shadow: 0.1875rem 0.1875rem black;
         background-color: #ffd15b;
         -webkit-transition: 0.2s;
         -o-transition: 0.2s;
@@ -352,8 +352,8 @@ img {
 
       button:hover {
         -webkit-transform: translateY(-0.1875rem);
-            -ms-transform: translateY(-0.1875rem);
-                transform: translateY(-0.1875rem);
+        -ms-transform: translateY(-0.1875rem);
+        transform: translateY(-0.1875rem);
       }
     }
   }
@@ -375,8 +375,8 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
   gap: 3.125rem;
   height: 100%;
 }
@@ -392,8 +392,8 @@ img {
   height: 5.9375rem;
   background-color: rgba(0, 0, 0, 0.094);
   -webkit-transform: rotate(11deg);
-      -ms-transform: rotate(11deg);
-          transform: rotate(11deg);
+  -ms-transform: rotate(11deg);
+  transform: rotate(11deg);
   z-index: 0;
 }
 
@@ -404,8 +404,8 @@ img {
   right: 80px;
   top: 150px;
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 #section-1 .shape-3 {
@@ -446,7 +446,7 @@ img {
   border: 0.1875rem solid black;
   margin-block: 1.25rem 1.5625rem;
   -webkit-box-shadow: 0.1875rem 0.1875rem black;
-          box-shadow: 0.1875rem 0.1875rem black;
+  box-shadow: 0.1875rem 0.1875rem black;
 }
 
 #section-1 .main .btn {
@@ -462,7 +462,7 @@ img {
   font-weight: 700;
   border: 0.25rem solid black;
   -webkit-box-shadow: 0.25rem 0.25rem black;
-          box-shadow: 0.25rem 0.25rem black;
+  box-shadow: 0.25rem 0.25rem black;
   cursor: pointer;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
@@ -471,26 +471,26 @@ img {
 
 #section-1 .main .btn button:hover {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   -webkit-transform: translate(0.25rem);
-      -ms-transform: translate(0.25rem);
-          transform: translate(0.25rem);
+  -ms-transform: translate(0.25rem);
+  transform: translate(0.25rem);
 }
 
 #section-1 .main .btn button:first-child {
   background-color: var(--bg-neutral-900);
   color: var(--text-neutral-100);
   -webkit-box-flex: 1.2;
-      -ms-flex-positive: 1.2;
-          flex-grow: 1.2;
+  -ms-flex-positive: 1.2;
+  flex-grow: 1.2;
 }
 
 #section-1 .main .btn button:last-child {
   background-color: var(--text-neutral-100);
   color: var(--bg-neutral-900);
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 #section-1 .main .right {
@@ -500,14 +500,14 @@ img {
 #section-1 .main .right .img {
   border: 0.25rem solid black;
   -webkit-box-shadow: 0.35rem 0.35rem black;
-          box-shadow: 0.35rem 0.35rem black;
+  box-shadow: 0.35rem 0.35rem black;
   height: 18.125rem;
 }
 
 #section-1 .main .right .img:hover {
   -webkit-transform: translate(-0.125rem, -0.125rem);
-      -ms-transform: translate(-0.125rem, -0.125rem);
-          transform: translate(-0.125rem, -0.125rem);
+  -ms-transform: translate(-0.125rem, -0.125rem);
+  transform: translate(-0.125rem, -0.125rem);
 }
 
 #section-1 .main .right .img img {
@@ -522,13 +522,13 @@ img {
   background-color: var(--text-red-400);
   padding: 0.5rem 0.875rem;
   -webkit-transform: rotate(12deg);
-      -ms-transform: rotate(12deg);
-          transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
+  transform: rotate(12deg);
   font-weight: 700;
   color: var(--text-neutral-100);
   border: 0.125rem solid black;
   -webkit-box-shadow: 0.1875rem 0.1875rem black;
-          box-shadow: 0.1875rem 0.1875rem black;
+  box-shadow: 0.1875rem 0.1875rem black;
 }
 /* End Section 1 */
 
@@ -545,8 +545,8 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
   gap: 1.5625rem;
 }
 
@@ -562,8 +562,8 @@ img {
 
 #section-2 .main .left-1 .head .btn-span {
   -webkit-transform: rotate(3deg);
-      -ms-transform: rotate(3deg);
-          transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
   display: none;
 }
 
@@ -573,8 +573,8 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 1.4375rem;
 }
 
@@ -584,13 +584,13 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   border: 0.25rem solid black;
   gap: 0.375rem;
   padding: 1.5625rem;
   -webkit-box-shadow: 0.25rem 0.25rem black;
-          box-shadow: 0.25rem 0.25rem black;
+  box-shadow: 0.25rem 0.25rem black;
   background-color: var(--bg-neutral-100);
   -webkit-transition:
     -webkit-transform 0.2s,
@@ -613,10 +613,10 @@ img {
 
 #section-2 .main .left-1 > .cards .card:hover {
   -webkit-box-shadow: 0.375rem 0.375rem black;
-          box-shadow: 0.375rem 0.375rem black;
+  box-shadow: 0.375rem 0.375rem black;
   -webkit-transform: translate(-0.125rem, -0.125rem);
-      -ms-transform: translate(-0.125rem, -0.125rem);
-          transform: translate(-0.125rem, -0.125rem);
+  -ms-transform: translate(-0.125rem, -0.125rem);
+  transform: translate(-0.125rem, -0.125rem);
 }
 
 #section-2 .main .left-1 > .cards .card .left-2 {
@@ -644,22 +644,22 @@ img {
 #section-2 .main .left-1 > .cards .card .left-2 img[alt="img-2"] + span {
   background-color: var(--bg-red-500);
   -webkit-transform: rotate(10deg);
-      -ms-transform: rotate(10deg);
-          transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
 }
 
 #section-2 .main .left-1 > .cards .card .left-2 img[alt="img-3"] + span {
   background-color: var(--bg-blue-350);
   -webkit-transform: rotate(-10deg);
-      -ms-transform: rotate(-10deg);
-          transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
 
 #section-2 .main .left-1 > .cards .card .left-2 img[alt="img-4"] + span {
   background-color: var(--bg-purple-550);
   -webkit-transform: rotate(25deg);
-      -ms-transform: rotate(25deg);
-          transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  transform: rotate(25deg);
 }
 
 #section-2 .main .left-1 > .cards .card .right-2 > span {
@@ -668,29 +668,29 @@ img {
   font-weight: 700;
   border: 0.125rem solid black;
   -webkit-box-shadow: 0.1875rem 0.1875rem black;
-          box-shadow: 0.1875rem 0.1875rem black;
+  box-shadow: 0.1875rem 0.1875rem black;
   margin-bottom: 0.625rem;
 }
 
 #section-2 .main .left-1 > .cards .card .right-2 > span.TECH {
   background-color: var(--bg-yellow-600);
   -webkit-transform: rotate(-2deg);
-      -ms-transform: rotate(-2deg);
-          transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
 }
 
 #section-2 .main .left-1 > .cards .card .right-2 > span.DESIGN {
   background-color: var(--bg-green-600);
   -webkit-transform: rotate(2deg);
-      -ms-transform: rotate(2deg);
-          transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
 }
 
 #section-2 .main .left-1 > .cards .card .right-2 > span.CULTURE {
   background-color: var(--bg-pink-700);
   -webkit-transform: rotate(-2deg);
-      -ms-transform: rotate(-2deg);
-          transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
 }
 
 #section-2 .main .left-1 > .cards .card .right-2 > h3 {
@@ -723,8 +723,8 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
 }
 
 #section-2 .main .left-1 > .cards .card .right-2 .bottom span {
@@ -753,7 +753,7 @@ img {
   background-color: var(--bg-neutral-900);
   padding: 0.8125rem 2.0625rem;
   -webkit-box-shadow: 0.25rem 0.25rem black;
-          box-shadow: 0.25rem 0.25rem black;
+  box-shadow: 0.25rem 0.25rem black;
   cursor: pointer;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
@@ -762,10 +762,10 @@ img {
 
 #section-2 .main .left-1 .btn-left span:hover {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   -webkit-transform: translate(0.25rem, 0.25rem);
-      -ms-transform: translate(0.25rem, 0.25rem);
-          transform: translate(0.25rem, 0.25rem);
+  -ms-transform: translate(0.25rem, 0.25rem);
+  transform: translate(0.25rem, 0.25rem);
 }
 
 #section-2 .main .right-1 {
@@ -774,15 +774,15 @@ img {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 1.375rem;
 }
 
 #section-2 .main .right-1 .box {
   border: 0.25rem solid black;
   -webkit-box-shadow: 0.375rem 0.375rem black;
-          box-shadow: 0.375rem 0.375rem black;
+  box-shadow: 0.375rem 0.375rem black;
   padding: 1.5625rem;
   background-color: var(--bg-neutral-100);
 }
@@ -799,8 +799,8 @@ img {
   display: flex;
   gap: 0.625rem;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 #section-2 .main .right-1 .box-1 .content > span {
@@ -808,8 +808,8 @@ img {
   color: var(--text-red-400);
   font-weight: 900;
   -webkit-transform: translateY(-0.25rem);
-      -ms-transform: translateY(-0.25rem);
-          transform: translateY(-0.25rem);
+  -ms-transform: translateY(-0.25rem);
+  transform: translateY(-0.25rem);
 }
 
 #section-2 .main .right-1 .box-1 .content > span.color-2 {
@@ -882,10 +882,10 @@ img {
 
 #section-2 .main .right-1 .box-2 .content:hover {
   -webkit-box-shadow: 0.375rem 0.375rem black;
-          box-shadow: 0.375rem 0.375rem black;
+  box-shadow: 0.375rem 0.375rem black;
   -webkit-transform: translate(-0.1875rem, -0.1875rem);
-      -ms-transform: translate(-0.1875rem, -0.1875rem);
-          transform: translate(-0.1875rem, -0.1875rem);
+  -ms-transform: translate(-0.1875rem, -0.1875rem);
+  transform: translate(-0.1875rem, -0.1875rem);
 }
 
 #section-2 .main .right-1 .box-2 .content:nth-child(2):hover {
@@ -926,8 +926,8 @@ img {
       height: 7.5rem;
       width: 7.5rem;
       -webkit-transform: rotate(45deg);
-          -ms-transform: rotate(45deg);
-              transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
       background-color: rgba(0, 0, 0, 0.096);
     }
 
@@ -937,8 +937,8 @@ img {
       height: 6.25rem;
       background-color: var(--bg-yellow-750);
       -webkit-transform: rotate(-15deg);
-          -ms-transform: rotate(-15deg);
-              transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+      transform: rotate(-15deg);
     }
 
     .boxes {
@@ -947,8 +947,8 @@ img {
       display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-          -ms-flex-flow: column wrap;
-              flex-flow: column wrap;
+      -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
       gap: 1.5625rem;
 
       .box {
@@ -959,7 +959,7 @@ img {
           padding: 1.5625rem;
           border: 0.25rem solid;
           -webkit-box-shadow: 0.375rem 0.375rem black;
-                  box-shadow: 0.375rem 0.375rem black;
+          box-shadow: 0.375rem 0.375rem black;
           position: relative;
           -webkit-transition: 0.2s;
           -o-transition: 0.2s;
@@ -967,8 +967,8 @@ img {
 
           &:hover {
             -webkit-transform: translate(-0.125rem, -0.125rem);
-                -ms-transform: translate(-0.125rem, -0.125rem);
-                    transform: translate(-0.125rem, -0.125rem);
+            -ms-transform: translate(-0.125rem, -0.125rem);
+            transform: translate(-0.125rem, -0.125rem);
           }
 
           &:hover h3 {
@@ -1016,8 +1016,8 @@ img {
             display: -ms-flexbox;
             display: flex;
             -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                    justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
             gap: 0.75rem;
 
             a {
@@ -1028,11 +1028,11 @@ img {
               display: -ms-flexbox;
               display: flex;
               -webkit-box-pack: center;
-                  -ms-flex-pack: center;
-                      justify-content: center;
+              -ms-flex-pack: center;
+              justify-content: center;
               -webkit-box-align: center;
-                  -ms-flex-align: center;
-                      align-items: center;
+              -ms-flex-align: center;
+              align-items: center;
               font-size: 0.8125rem;
               -webkit-transition: 0.2s;
               -o-transition: 0.2s;
@@ -1041,10 +1041,10 @@ img {
 
             a:hover {
               -webkit-box-shadow: 0.3125rem 0.3125rem black;
-                      box-shadow: 0.3125rem 0.3125rem black;
+              box-shadow: 0.3125rem 0.3125rem black;
               -webkit-transform: translate(-0.3125rem, -0.3125rem);
-                  -ms-transform: translate(-0.3125rem, -0.3125rem);
-                      transform: translate(-0.3125rem, -0.3125rem);
+              -ms-transform: translate(-0.3125rem, -0.3125rem);
+              transform: translate(-0.3125rem, -0.3125rem);
             }
 
             a:first-child:hover {
@@ -1067,8 +1067,8 @@ img {
             background-color: var(--bg-red-400);
             font-size: 0.5625rem;
             -webkit-transform: rotate(12deg);
-                -ms-transform: rotate(12deg);
-                    transform: rotate(12deg);
+            -ms-transform: rotate(12deg);
+            transform: rotate(12deg);
             color: var(--text-neutral-100);
             font-weight: 700;
             padding: 0.3125rem 0.375rem;
@@ -1082,8 +1082,8 @@ img {
           span {
             background-color: var(--bg-blue-350);
             -webkit-transform: rotate(-12deg);
-                -ms-transform: rotate(-12deg);
-                    transform: rotate(-12deg);
+            -ms-transform: rotate(-12deg);
+            transform: rotate(-12deg);
           }
         }
 
@@ -1093,8 +1093,8 @@ img {
           span {
             background-color: var(--bg-purple-550);
             -webkit-transform: rotate(30deg);
-                -ms-transform: rotate(30deg);
-                    transform: rotate(30deg);
+            -ms-transform: rotate(30deg);
+            transform: rotate(30deg);
           }
         }
       }
@@ -1113,8 +1113,8 @@ img {
     .head-content {
       div {
         -webkit-transform: rotate(-1deg);
-            -ms-transform: rotate(-1deg);
-                transform: rotate(-1deg);
+        -ms-transform: rotate(-1deg);
+        transform: rotate(-1deg);
       }
     }
 
@@ -1124,8 +1124,8 @@ img {
       display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-          -ms-flex-flow: column wrap;
-              flex-flow: column wrap;
+      -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
       gap: 2.8125rem;
 
       .leftContent {
@@ -1146,7 +1146,7 @@ img {
             padding: 0.75rem;
             border: 0.125rem solid black;
             -webkit-box-shadow: 0.1875rem 0.1875rem black;
-                    box-shadow: 0.1875rem 0.1875rem black;
+            box-shadow: 0.1875rem 0.1875rem black;
             margin-block: 1.5rem;
           }
 
@@ -1155,8 +1155,8 @@ img {
             display: -ms-flexbox;
             display: flex;
             -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
             gap: 0.625rem;
             margin-bottom: 1.125rem;
 
@@ -1164,7 +1164,7 @@ img {
               width: 2.25rem;
               height: 2.25rem;
               -ms-flex-negative: 0;
-                  flex-shrink: 0;
+              flex-shrink: 0;
               background-color: var(--bg-red-400);
               border: 0.125rem solid black;
               font-size: 0.875rem;
@@ -1173,11 +1173,11 @@ img {
               display: -ms-flexbox;
               display: flex;
               -webkit-box-pack: center;
-                  -ms-flex-pack: center;
-                      justify-content: center;
+              -ms-flex-pack: center;
+              justify-content: center;
               -webkit-box-align: center;
-                  -ms-flex-align: center;
-                      align-items: center;
+              -ms-flex-align: center;
+              align-items: center;
             }
 
             .icon-2 {
@@ -1208,7 +1208,7 @@ img {
             font-weight: 700;
             cursor: pointer;
             -webkit-box-shadow: 0.3125rem 0.3125rem black;
-                    box-shadow: 0.3125rem 0.3125rem black;
+            box-shadow: 0.3125rem 0.3125rem black;
             margin-top: 0.9375rem;
             -webkit-transition: 0.2s;
             -o-transition: 0.2s;
@@ -1216,10 +1216,10 @@ img {
 
             &:hover {
               -webkit-transform: translate(0.3125rem, 0.3125rem);
-                  -ms-transform: translate(0.3125rem, 0.3125rem);
-                      transform: translate(0.3125rem, 0.3125rem);
+              -ms-transform: translate(0.3125rem, 0.3125rem);
+              transform: translate(0.3125rem, 0.3125rem);
               -webkit-box-shadow: none;
-                      box-shadow: none;
+              box-shadow: none;
             }
           }
         }
@@ -1231,7 +1231,7 @@ img {
           padding: 1.875rem;
           background-color: var(--bg-neutral-100);
           -webkit-box-shadow: 0.375rem 0.375rem black;
-                  box-shadow: 0.375rem 0.375rem black;
+          box-shadow: 0.375rem 0.375rem black;
 
           h4 {
             font-size: 1.4063rem;
@@ -1245,8 +1245,8 @@ img {
             display: flex;
             -webkit-box-orient: vertical;
             -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
             gap: 1.375rem;
 
             .box {
@@ -1267,8 +1267,8 @@ img {
                 display: -ms-flexbox;
                 display: flex;
                 -webkit-box-align: center;
-                    -ms-flex-align: center;
-                        align-items: center;
+                -ms-flex-align: center;
+                align-items: center;
                 gap: 0.625rem;
 
                 .img {
@@ -1286,8 +1286,8 @@ img {
                     font-size: 0.6563rem;
                     color: var(--text-neutral-500);
                     -webkit-transform: translateY(-0.1875rem);
-                        -ms-transform: translateY(-0.1875rem);
-                            transform: translateY(-0.1875rem);
+                    -ms-transform: translateY(-0.1875rem);
+                    transform: translateY(-0.1875rem);
                   }
                 }
               }
@@ -1327,8 +1327,8 @@ img {
       display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-          -ms-flex-flow: column wrap;
-              flex-flow: column wrap;
+      -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
       padding-bottom: 2.5rem;
       border-bottom: 0.25rem solid white;
 
@@ -1340,8 +1340,8 @@ img {
           display: -ms-flexbox;
           display: flex;
           -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
           gap: 0.625rem;
           margin-bottom: 1.25rem;
 
@@ -1352,11 +1352,11 @@ img {
             display: -ms-flexbox;
             display: flex;
             -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                    justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
             -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
             background-color: var(--bg-neutral-100);
             color: var(--text-neutral-900);
             font-size: 1.125rem;
@@ -1388,8 +1388,8 @@ img {
           display: flex;
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
-              -ms-flex-direction: column;
-                  flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
           gap: 1.125rem;
 
           a {
@@ -1466,7 +1466,7 @@ img {
           border: none;
           cursor: pointer;
           -webkit-box-shadow: -0.25rem -0.25rem #ccb21a inset;
-                  box-shadow: -0.25rem -0.25rem #ccb21a inset;
+          box-shadow: -0.25rem -0.25rem #ccb21a inset;
           -webkit-transition: 0.2s;
           -o-transition: 0.2s;
           transition: 0.2s;
@@ -1474,8 +1474,8 @@ img {
 
         input[type="submit"]:hover {
           -webkit-transform: translate(0.1875rem, 0.1875rem);
-              -ms-transform: translate(0.1875rem, 0.1875rem);
-                  transform: translate(0.1875rem, 0.1875rem);
+          -ms-transform: translate(0.1875rem, 0.1875rem);
+          transform: translate(0.1875rem, 0.1875rem);
           background-color: #fdc700;
         }
       }
@@ -1488,8 +1488,8 @@ img {
       display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
       gap: 0.625rem;
       color: var(--text-neutral-100);
 
@@ -1503,11 +1503,11 @@ img {
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         gap: 1.25rem;
         font-size: 0.75rem;
         font-weight: 600;
@@ -1525,4 +1525,4 @@ img {
     }
   }
 }
-/* End Fo
+/* End Footer */
