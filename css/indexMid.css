@@ -110,11 +110,14 @@
 
   #section-1 .main .btn button {
     font-size: 1.125rem;
+    -webkit-box-shadow: 0.3438rem 0.3438rem black;
     box-shadow: 0.3438rem 0.3438rem black;
   }
 
   #section-1 .main .btn button:last-child,
   #section-1 .main .btn button:first-child {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
     flex-grow: 0;
   }
 
@@ -173,10 +176,13 @@
   #section-2 .main .left-1 .btn-left span {
     font-size: 1.125rem;
     padding: 0.9375rem 2.375rem;
+    -webkit-box-shadow: 0.3438rem 0.3438rem black;
     box-shadow: 0.3438rem 0.3438rem black;
   }
 
   #section-2 .main .left-1 .btn-left span:hover {
+    -webkit-transform: translate(0.3438rem, 0.3438rem);
+    -ms-transform: translate(0.3438rem, 0.3438rem);
     transform: translate(0.3438rem, 0.3438rem);
   }
 
@@ -497,15 +503,24 @@
 
   /* Start Section 2 */
   #section-2 .main .left-1 .head {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
   #section-2 .main .left-1 .head .btn-span {
     display: block;
     font-size: 0.875rem;
+    -webkit-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
     transform: rotate(2deg);
     padding: 0.5625rem 0.9375rem;
   }
@@ -515,6 +530,9 @@
   }
 
   #section-2 .main .left-1 > .cards .card .right-2 .bottom {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
   }
 
@@ -858,6 +876,9 @@
     .main {
       .boxes {
         padding-bottom: 3.125rem;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
         flex-flow: row wrap;
 
         .box {
@@ -945,7 +966,12 @@
 @media (min-width: 64rem) {
   /* Start Section 1 */
   #section-1 .main {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     gap: 0;
   }
@@ -957,6 +983,8 @@
     width: 6.25rem;
     height: 6.25rem;
     background-color: #e9e491;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
 
@@ -973,6 +1001,8 @@
   }
 
   #section-1 .main .right {
+    -webkit-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
     transform: rotate(2deg);
   }
 
@@ -986,8 +1016,13 @@
 
   /* Start Section 2 */
   #section-2 .main {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     gap: 0;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
   }
 
@@ -997,9 +1032,14 @@
   }
 
   #section-2 .main .left-1 > .cards .card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     gap: 0;
     padding: 2rem;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
   }
 
@@ -1036,6 +1076,9 @@
       }
 
       .boxes {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
         flex-flow: row wrap;
         gap: 1.875rem 0;
 
@@ -1059,7 +1102,12 @@
     .main {
       .body-content {
         gap: 0rem;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
 
         & > div {
@@ -1085,6 +1133,9 @@
     .main {
       .boxes {
         padding-bottom: 3.125rem;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
 
         .box {
@@ -1118,7 +1169,11 @@
         display: block;
 
         ul {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
           gap: 1.25rem;
 
@@ -1127,6 +1182,8 @@
             font-weight: 600;
 
             a {
+              -webkit-transition: 0.2s;
+              -o-transition: 0.2s;
               transition: 0.2s;
             }
           }
@@ -1192,6 +1249,8 @@
 
     .main {
       .boxes {
+        -webkit-column-gap: 1.875rem;
+        -moz-column-gap: 1.875rem;
         column-gap: 1.875rem;
         row-gap: 0;
 
@@ -1208,8 +1267,15 @@
   #footer {
     .main {
       .bottom {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
         flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
       }
     }
